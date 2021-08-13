@@ -13251,6 +13251,29 @@ img {
      object-fit: cover;
 }
 
+.btn-lg, .btn-group-lg > .btn {
+  background: transparent;
+  border: 1px solid #FFF;
+  padding: 10px 48px;
+}
+
+.btn-lg:hover, .btn-group-lg > .btn:hover {
+  color: #000;
+  background: #E31277;
+  border: 0px solid #000;
+}
+
+.btn {
+  color: #630834;
+  border: 1px solid #630834;
+  padding: 10px 16px;
+}
+
+.btn:hover {
+  color: #FFF;
+  background: #630834;
+}
+
 .footer {
   width: 100%;
 }
@@ -13293,18 +13316,6 @@ img {
 
 .header-banner .row {
   height: 100%;
-}
-
-.header-banner .row .btn-lg, .header-banner .row .btn-group-lg > .btn {
-  background: transparent;
-  border: 1px solid #FFF;
-  padding: 10px 48px;
-}
-
-.header-banner .row .btn-lg:hover, .header-banner .row .btn-group-lg > .btn:hover {
-  color: #000;
-  background: #E31277;
-  border: 0px solid #000;
 }
 
 .navbar {
@@ -13363,17 +13374,6 @@ img {
   margin-bottom: 40px;
 }
 
-.content .card .banner-button .btn {
-  color: #630834;
-  border: 1px solid #630834;
-  padding: 10px 16px;
-}
-
-.content .card .banner-button .btn:hover {
-  color: #FFF;
-  background: #630834;
-}
-
 .post .row {
   background-image: url("../images/people2.png");
   background-position: center center;
@@ -13393,12 +13393,6 @@ img {
 .post-text img {
   width: 128px;
   height: 128px;
-}
-
-.post-text .btn-lg:hover, .post-text .btn-group-lg > .btn:hover {
-  color: #E31277;
-  background: #FFF;
-  border: 0px solid #000;
 }
 
 .poster .poster-item img {
