@@ -104,13 +104,13 @@ img {
 }
 
 .content{
-    img {
-        width: 350px;
-        height: 350px;
+    .ratio-1x1{
+        img {
+            object-fit: cover;
+        }
     }
     .card {
         width: 100%;
-        height: 350px;
         .content-text-remark{
             width: 40px;
         }
@@ -130,6 +130,55 @@ img {
                     background: $primary;
                 }
             }
+        }
+    }
+}
+
+
+.post{
+    .row{
+        height: 482px;
+        background-image: url("../images/people2.png");
+        background-position: center center;
+        background-size: cover;
+    }
+    .post-text{
+        padding: 40px 24px;
+        height: 100%;
+        background: #190014CC;
+        .post-text-title ~ .post-text-title{
+            border-left: 1px solid #FFF;
+        }
+        img{
+            width: 128px;
+            height: 128px;
+        }
+        .btn-lg {
+            color: #FFF;
+            background: $secondary;
+            border: 1px solid $secondary;
+            padding: 10px 38px;
+            &:hover{
+                color: $secondary;
+                background: #FFF;
+                border: 0px solid #000;
+            }
+        }
+    }
+}
+
+
+.poster{
+    .poster-content{
+        height: 100%;
+    }   
+    .poster-list{
+        height: 350px;
+    }
+    .poster-item{
+        img{
+            width: 100%;
+            height: 350px;
         }
     }
 }
