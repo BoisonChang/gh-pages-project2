@@ -13395,13 +13395,6 @@ img {
   height: 128px;
 }
 
-.post-text .btn-lg, .post-text .btn-group-lg > .btn {
-  color: #FFF;
-  background: #E31277;
-  border: 1px solid #E31277;
-  padding: 10px 38px;
-}
-
 .post-text .btn-lg:hover, .post-text .btn-group-lg > .btn:hover {
   color: #E31277;
   background: #FFF;
