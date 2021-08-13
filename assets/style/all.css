@@ -7630,6 +7630,10 @@ fieldset:disabled .btn {
   --bs-aspect-ratio: calc(9 / 21 * 100%);
 }
 
+.ratio-482x445 {
+  --bs-aspect-ratio: calc(445 / 482 * 100%);
+}
+
 .fixed-top {
   position: fixed;
   top: 0;
@@ -13346,14 +13350,13 @@ img {
   overflow-y: hidden;
 }
 
-.content img {
-  width: 350px;
-  height: 350px;
+.content .ratio-1x1 img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .content .card {
   width: 100%;
-  height: 350px;
 }
 
 .content .card .content-text-remark {
@@ -13379,6 +13382,54 @@ img {
 .content .card .banner-button .btn:hover {
   color: #FFF;
   background: #630834;
+}
+
+.post .row {
+  height: 482px;
+  background-image: url("../images/people2.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+.post .post-text {
+  padding: 40px 24px;
+  height: 100%;
+  background: #190014CC;
+}
+
+.post .post-text .post-text-title ~ .post-text-title {
+  border-left: 1px solid #FFF;
+}
+
+.post .post-text img {
+  width: 128px;
+  height: 128px;
+}
+
+.post .post-text .btn-lg, .post .post-text .btn-group-lg > .btn {
+  color: #FFF;
+  background: #E31277;
+  border: 1px solid #E31277;
+  padding: 10px 38px;
+}
+
+.post .post-text .btn-lg:hover, .post .post-text .btn-group-lg > .btn:hover {
+  color: #E31277;
+  background: #FFF;
+  border: 0px solid #000;
+}
+
+.poster .poster-content {
+  height: 100%;
+}
+
+.poster .poster-list {
+  height: 350px;
+}
+
+.poster .poster-item img {
+  width: 100%;
+  height: 350px;
 }
 
 /*# sourceMappingURL=all.css.map */
