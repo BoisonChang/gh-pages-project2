@@ -13223,12 +13223,6 @@ fieldset:disabled .btn {
   }
 }
 
-.index__h1 {
-  color: #00cc99;
-  font-size: 20px;
-  font-weight: 400;
-}
-
 .themed-grid-col {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -13381,7 +13375,6 @@ img {
 }
 
 .post .row {
-  height: 482px;
   background-image: url("../images/people2.png");
   background-position: center center;
   background-size: cover;
@@ -13413,14 +13406,6 @@ img {
   color: #E31277;
   background: #FFF;
   border: 0px solid #000;
-}
-
-.poster .poster-content {
-  height: 350px;
-}
-
-.poster .poster-list {
-  height: 350px;
 }
 
 .poster .poster-item img {
