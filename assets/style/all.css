@@ -13380,29 +13380,29 @@ img {
   background-size: cover;
 }
 
-.post .post-text {
+.post-text {
   padding: 40px 24px;
   height: 100%;
   background: #190014CC;
 }
 
-.post .post-text .post-text-title ~ .post-text-title {
+.post-text .post-text-title ~ .post-text-title {
   border-left: 1px solid #FFF;
 }
 
-.post .post-text img {
+.post-text img {
   width: 128px;
   height: 128px;
 }
 
-.post .post-text .btn-lg, .post .post-text .btn-group-lg > .btn {
+.post-text .btn-lg, .post-text .btn-group-lg > .btn {
   color: #FFF;
   background: #E31277;
   border: 1px solid #E31277;
   padding: 10px 38px;
 }
 
-.post .post-text .btn-lg:hover, .post .post-text .btn-group-lg > .btn:hover {
+.post-text .btn-lg:hover, .post-text .btn-group-lg > .btn:hover {
   color: #E31277;
   background: #FFF;
   border: 0px solid #000;
