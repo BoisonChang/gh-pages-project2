@@ -26,6 +26,27 @@ img {
     object-fit: cover;
 }
 
+.btn-lg{
+    background: transparent;
+    border: 1px solid #FFF;
+    padding: 10px 48px;
+    &:hover{
+        color: #000;
+        background: $secondary;
+        border: 0px solid #000;
+    }
+}
+
+.btn {
+    color: $primary;
+    border: 1px solid $primary;
+    padding: 10px 16px;
+    &:hover{
+        color: #FFF;
+        background: $primary;
+    }
+}
+
 .footer {
     width: 100%;   
     .footer-img {
@@ -62,16 +83,6 @@ img {
     }
     .row{
         height: 100%;
-        .btn-lg{
-            background: transparent;
-            border: 1px solid #FFF;
-            padding: 10px 48px;
-            &:hover{
-                color: #000;
-                background: $secondary;
-                border: 0px solid #000;
-            }
-        }
     }
 }
 
@@ -121,15 +132,6 @@ img {
         }
         .banner-button {
             margin-bottom: 40px;
-            .btn {
-                color: $primary;
-                border: 1px solid $primary;
-                padding: 10px 16px;
-                &:hover{
-                    color: #FFF;
-                    background: $primary;
-                }
-            }
         }
     }
 }
@@ -137,44 +139,27 @@ img {
 
 .post{
     .row{
-        height: 482px;
         background-image: url("../images/people2.png");
         background-position: center center;
         background-size: cover;
     }
-    .post-text{
-        padding: 40px 24px;
-        height: 100%;
-        background: #190014CC;
-        .post-text-title ~ .post-text-title{
-            border-left: 1px solid #FFF;
-        }
-        img{
-            width: 128px;
-            height: 128px;
-        }
-        .btn-lg {
-            color: #FFF;
-            background: $secondary;
-            border: 1px solid $secondary;
-            padding: 10px 38px;
-            &:hover{
-                color: $secondary;
-                background: #FFF;
-                border: 0px solid #000;
-            }
-        }
+}
+
+.post-text{
+    padding: 40px 24px;
+    height: 100%;
+    background: #190014CC;
+    .post-text-title ~ .post-text-title{
+        border-left: 1px solid #FFF;
+    }
+    img{
+        width: 128px;
+        height: 128px;
     }
 }
 
 
 .poster{
-    .poster-content{
-        height: 100%;
-    }   
-    .poster-list{
-        height: 350px;
-    }
     .poster-item{
         img{
             width: 100%;
