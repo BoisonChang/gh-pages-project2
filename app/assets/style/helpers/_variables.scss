@@ -417,6 +417,9 @@ $aspect-ratios: (
   "4x3": calc(3 / 4 * 100%),
   "16x9": calc(9 / 16 * 100%),
   "21x9": calc(9 / 21 * 100%),
+  "350x559": calc(559 / 350 * 100%),
+  "540x256": calc(256 / 540 * 100%),
+  "1110x400": calc(400 / 1110 * 100%),  
 ) !default;
 // scss-docs-end aspect-ratios
 // stylelint-enable function-disallowed-list
